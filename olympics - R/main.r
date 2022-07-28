@@ -274,3 +274,58 @@ ggplot(z, aes(x=Year, y=Count, fill=Medal)) +
   labs(x = "Nations", y = "Count", 
        title="INDIA-medals aquired in olympics over the years", 
        subtitle = "Olympic Games from 1896 to 2016") 
+         
+         
+
+library(RColorBrewer)
+df = dataOlympics %>% drop_na(Height, Weight, Age)
+
+#age distribution of the athletes
+
+# creating subsets to look at the genders separately
+women = dplyr::filter(df, Sex == "F")
+men = dplyr::filter(df, Sex == "M")
+
+# Let's see how the it looks like on histograms and boxplots:
+par(mfrow=c(2,1)) # showing one graph under the other
+par(mar=c(3,3,2,1)) # changes margins within the figure
+
+hist(women$Age,
+     breaks = 30,
+     col = brewer.pal(9, "YlOrRd"), 
+     main = "The age distribution for female athletes")
+
+hist(men$Age,
+     breaks = 30,
+     col = brewer.pal(9, "GnBu"), 
+     main = "The age distribution for male athletes")
+
+#weight distribution of the athletes
+
+par(mfrow=c(2,1)) # showing one graph under the other
+par(mar=c(3,3,2,1))
+hist(women$Weight,
+     xlim = c(30, 110),
+     breaks = 30,
+     col = brewer.pal(9, "YlOrRd"), 
+     main = "The weight distribution for female athletes")
+
+hist(men$Weight,
+     xlim = c(30, 130),
+     breaks = 30,
+     col = brewer.pal(9, "GnBu"), 
+     main = "The weight distribution for male athletes")
+
+
+#height distribution of the athletes
+par(mfrow=c(2,1)) # showing one graph under the other
+par(mar=c(3,3,2,1))
+hist(women$Height,
+     breaks = 30,
+     col = brewer.pal(9, "YlOrRd"), 
+     main = "The Height distribution for female athletes")
+
+hist(men$Height,
+     breaks = 30,
+     col = brewer.pal(9, "GnBu"), 
+     main = "The Height distribution for male athletes")

@@ -56,11 +56,11 @@ This visualisation projects contains _ plots and 2 Animated plots:
 
 ### Average weights for summer and winter sports
 
-![Rplot07](https://user-images.githubusercontent.com/95603389/181925652-0a644ca3-21d3-4346-ab78-3decba80dd5a.png)
+![b52331be-f72d-44de-82a5-9f4ac9d2d5cb](https://user-images.githubusercontent.com/95603389/181925958-ee689a4d-4f80-4a71-bea7-dd8006a1d027.png)
 
-### Average weights for summer and winter sports
+### Average Heights for summer and winter sports
 
-![0e596d27-f665-4aed-9d31-99ea86691668](https://user-images.githubusercontent.com/95603389/181925737-29b6aef5-278f-40df-a964-b21317b027a6.png)
+![0e596d27-f665-4aed-9d31-99ea86691668](https://user-images.githubusercontent.com/95603389/181925949-d5b4c739-5ea8-47e3-b68b-8d8930d8fa03.png)
 
 ### Top 30 Nations in order of medal count
 

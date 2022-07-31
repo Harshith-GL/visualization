@@ -1,6 +1,6 @@
 # visualization
 The Exploratory Visualization of the 120 years of olympic games held between 1896 and 2016.
-The main aim is to show the readers the overview of the olympic games like the no of events over the years,Athlete participation,Medal count,Male and Female participation,Age,Height and Weight distribution of the athletes.
+The main aim is to show the readers the overview of the olympic games like the number of events over the years,Athlete participation,Medal count,Male and Female participation,Age,Height and Weight distribution of the athletes.
 
 ## Data Source
 The data is downloaded from this kaggle link: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results. This dataset was created by rgriffin in May 2018.
@@ -32,7 +32,7 @@ The remaining variables are of a type character. They include:
 - RColorBrewer
 
 ## PLOTS
-This visualisation projects contains _ plots and 2 Animated plots:
+This visualisation projects contains 9 plots,2 Animated plots and 1 map plot:
 
 ### Number of Athletes participated,Nations participated and Events occured over the time period
 
